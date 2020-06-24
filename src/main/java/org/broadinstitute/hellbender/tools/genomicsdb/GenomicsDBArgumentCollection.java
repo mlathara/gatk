@@ -12,7 +12,7 @@ public class GenomicsDBArgumentCollection implements Serializable {
   public static final String SHARED_POSIXFS_OPTIMIZATIONS = "genomicsdb-shared-posixfs-optimizations";
 
   private static final boolean DEFAULT_CALL_GENOTYPES = false;
-  private static final boolean DEFAULT_USE_VCF_CODEC = false;
+  private static final boolean DEFAULT_USE_VCF_CODEC = true;
   private static final boolean DEFAULT_SHARED_POSIXFS_OPTIMIZATIONS = false;
 
   /**
